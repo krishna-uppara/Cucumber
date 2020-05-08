@@ -33,35 +33,35 @@ import io.cucumber.testng.TestNGCucumberRunner;
 
 public class Runner extends AbstractTestNGCucumberTests {
 	
- TestNGCucumberRunner testNGCucumberRunner;
-	 
-    @BeforeClass(alwaysRun = true)
-   
-    public void setup() {
-       
-
-        testNGCucumberRunner =new TestNGCucumberRunner(this.getClass());
-    }
- 
-    @Test(groups = "cucumber scenarios", description = "Runs Cucumber Scenarios", dataProvider = "scenarios")
-    public void scenario(PickleWrapper pickleEvent, FeatureWrapper cucumberFeature) throws Throwable {
-        testNGCucumberRunner.runScenario(pickleEvent.getPickle());//runScenario(pickleEvent.getPickle());
-    }
- 
-    /**
-     * @return returns two dimensional array of {@link CucumberFeatureWrapper}
-     *         objects.
-     */
-    @DataProvider(parallel =true)
-    public Object[][] scenarios() {
-        return testNGCucumberRunner.provideScenarios();//super.scenarios();
-    }
- 
-    @AfterClass(alwaysRun = true)
-    public void tearDown() {
-       
-        testNGCucumberRunner.finish();
-    }
+// TestNGCucumberRunner testNGCucumberRunner;
+//	 
+//    @BeforeClass(alwaysRun = true)
+//   
+//    public void setup() {
+//       
+//
+//        testNGCucumberRunner =new TestNGCucumberRunner(this.getClass());
+//    }
+// 
+//    @Test(groups = "cucumber scenarios", description = "Runs Cucumber Scenarios", dataProvider = "scenarios")
+//    public void scenario(PickleWrapper pickleEvent, FeatureWrapper cucumberFeature) throws Throwable {
+//        testNGCucumberRunner.runScenario(pickleEvent.getPickle());//runScenario(pickleEvent.getPickle());
+//    }
+// 
+//    /**
+//     * @return returns two dimensional array of {@link CucumberFeatureWrapper}
+//     *         objects.
+//     */
+//    @DataProvider(parallel =true)
+//    public Object[][] scenarios() {
+//        return testNGCucumberRunner.provideScenarios();//super.scenarios();
+//    }
+// 
+//    @AfterClass(alwaysRun = true)
+//    public void tearDown() {
+//       
+//        testNGCucumberRunner.finish();
+//    }
 }
 
 

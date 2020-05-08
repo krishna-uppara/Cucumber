@@ -1,34 +1,4 @@
 
 Scenario: Free crm lookup # src/main/java/Features/Test123.feature:11
-
-Scenario: Free Crm Loginn Test Scenario    # src/main/java/Features/Test123.feature:3
-
-Scenario: Verify the datatable # src/main/java/Features/mapdatatable.feature:4
-  Given user is already in the login page  # Definition.Test123.userIsAlreadyInTheLoginPage()
-      java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at Definition.Test123.userIsAlreadyInTheLoginPage(Test123.java:26)
-	at ✽.user is already in the login page(file:///E:/NoticeperiodSelenium/cucumberreports/src/main/java/Features/Test123.feature:4)
-
-  Then title of the lgin page is free CRmm # Definition.Test123.titleOfTheLoginPageIsFreeCRmm()
-  Then user enter username and password    # Definition.Test123.userEnterUsernameAndPassword()
-  Then user click on login button          # Definition.Test123.userClickOnLoginButton()
-  And User is home page                    # Definition.Test123.userIsHomePage()
-
-    krishnauppara
-
-
-    Embedding Free Crm Loginn Test Scenario [image/png 957992 bytes]
-
-  Given xyxz                   # Definition.Mapdatatable.xyxz()
-  When abc                     # Definition.Mapdatatable.abc()
-  Then def                     # Definition.Mapdatatable.def(io.cucumber.datatable.DataTable)
-
-    krishnauppara
-
-  Given user is lookin up # Definition.Test123.user_is_lookin_up()
-  When user is taken up   # Definition.Test123.user_is_taken_up()
-
-    krishnauppara
-
+  Given user is lookin up # Definition.Mapdatatable.user_is_lookin_up()
+  When user is taken up   # Definition.Mapdatatable.user_is_taken_up()

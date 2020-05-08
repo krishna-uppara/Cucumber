@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="83.385">
-<testcase classname="free crm" name="Free Crm Loginn Test Scenario" time="40.56">
-<failure message="null" type="java.lang.AssertionError"><![CDATA[Given user is already in the login page.....................................failed
-Then title of the lgin page is free CRmm....................................skipped
-Then user enter username and password.......................................skipped
-Then user click on login button.............................................skipped
-And User is home page.......................................................skipped
-
-StackTrace:
-java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at Definition.Test123.userIsAlreadyInTheLoginPage(Test123.java:26)
-	at ✽.user is already in the login page(file:///E:/NoticeperiodSelenium/cucumberreports/src/main/java/Features/Test123.feature:4)
-]]></failure>
-</testcase>
-<testcase classname="free crm" name="Free crm lookup" time="40.352">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.374">
+<testcase classname="free crm" name="Free crm lookup" time="0.028">
 <system-out><![CDATA[Given user is lookin up.....................................................passed
 When user is taken up.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the datatable" name="Verify the datatable" time="32.956">
-<system-out><![CDATA[Given xyxz..................................................................passed
-When abc....................................................................passed
-Then def....................................................................passed
-]]></system-out>
-</testcase>
 </testsuite>
-

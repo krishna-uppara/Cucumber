@@ -1,72 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84218" started-at="2020-04-21T08:08:36Z" finished-at="2020-04-21T08:10:00Z">
+  <suite name="Default suite" duration-ms="2189" started-at="2020-05-08T07:12:37Z" finished-at="2020-05-08T07:12:40Z">
     <groups>
-      <group name="cucumber scenarios">
-        <method signature="Runner.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="scenario" class="RunnerClass.Runner"/>
-      </group> <!-- cucumber scenarios -->
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@31610302]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="84218" started-at="2020-04-21T08:08:36Z" finished-at="2020-04-21T08:10:00Z">
+    <test name="Default test" duration-ms="2189" started-at="2020-05-08T07:12:37Z" finished-at="2020-05-08T07:12:40Z">
       <class name="RunnerClass.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerClass.Runner@21213b92]" name="setUpClass" is-config="true" duration-ms="593" started-at="2020-04-21T08:08:36Z" finished-at="2020-04-21T08:08:37Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerClass.Runner@31610302]" name="setUpClass" is-config="true" duration-ms="891" started-at="2020-05-08T07:12:37Z" finished-at="2020-05-08T07:12:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:RunnerClass.Runner@21213b92]" name="setup" is-config="true" duration-ms="20" started-at="2020-04-21T08:08:37Z" finished-at="2020-04-21T08:08:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="runScenario" duration-ms="33234" started-at="2020-04-21T08:08:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T08:09:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the datatable"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Verify the datatable"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="runScenario" duration-ms="40830" started-at="2020-04-21T08:08:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T08:09:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Free Crm Loginn Test Scenario"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["free crm"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at Definition.Test123.userIsAlreadyInTheLoginPage(Test123.java:26)
-at ✽.user is already in the login page(file:///E:/NoticeperiodSelenium/cucumberreports/src/main/java/Features/Test123.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="runScenario" duration-ms="40616" started-at="2020-04-21T08:08:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T08:09:17Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@31610302]" name="runScenario" duration-ms="345" started-at="2020-05-08T07:12:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-08T07:12:39Z">
           <params>
             <param index="0">
               <value>
@@ -82,72 +30,7 @@ at ✽.user is already in the login page(file:///E:/NoticeperiodSelenium/cucumbe
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="scenario" duration-ms="35671" started-at="2020-04-21T08:09:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T08:09:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Free Crm Loginn Test Scenario"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["free crm"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at Definition.Test123.userIsAlreadyInTheLoginPage(Test123.java:26)
-at ✽.user is already in the login page(file:///E:/NoticeperiodSelenium/cucumberreports/src/main/java/Features/Test123.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="scenario" duration-ms="41537" started-at="2020-04-21T08:09:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T08:09:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the datatable"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Verify the datatable"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.Runner@21213b92]" name="scenario" duration-ms="40863" started-at="2020-04-21T08:09:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-21T08:09:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Free crm lookup"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["free crm"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:RunnerClass.Runner@21213b92]" name="tearDown" is-config="true" duration-ms="920" started-at="2020-04-21T08:09:59Z" finished-at="2020-04-21T08:10:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerClass.Runner@21213b92]" name="tearDownClass" is-config="true" duration-ms="224" started-at="2020-04-21T08:10:00Z" finished-at="2020-04-21T08:10:00Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerClass.Runner@31610302]" name="tearDownClass" is-config="true" duration-ms="912" started-at="2020-05-08T07:12:39Z" finished-at="2020-05-08T07:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

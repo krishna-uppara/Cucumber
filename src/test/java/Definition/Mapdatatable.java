@@ -41,7 +41,24 @@ public class Mapdatatable{
 	
 			
 		}
-	}	
+		
+
+		}
+
+
+	@Given("user is lookin up")
+	public void user_is_lookin_up() {
+    System.out.println("KING");	}
+
+
+	@When("user is taken up")
+	public void user_is_taken_up() {
+	    System.out.println("QUEEN");
+	}
+
+
+
+}	
 	
 	
 	
@@ -93,4 +110,3 @@ public class Mapdatatable{
 	
 	
 
-}

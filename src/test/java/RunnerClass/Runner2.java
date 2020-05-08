@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "E:/NoticeperiodSelenium/Cucumber_learning/src/main/java/Features/mapdatatable.feature",
+@CucumberOptions(features = "E:/NoticeperiodSelenium/Cucumberreports/src/main/java/Features/mapdatatable.feature",
 glue = "Definition",
 monochrome = true,
 //dryRun=true,
